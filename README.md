@@ -32,7 +32,23 @@ pip install -r requirements.txt
 ```bash
 python detect_blinks.py
 ```
+2. Una vez que el programa esté en funcionamiento, te mostrará una ventana en tiempo real con la imagen de tu webcam. Verás información sobre la cantidad total de parpadeos, parpadeos por minuto, parpadeos por segundo y la máxima duración con los ojos cerrados.
 
+3. Para salir del programa, simplemente presiona la tecla "q".
 
+## Dependencias
 
+cv2: Para la captura y procesamiento de video en tiempo real.
+dlib: Para la detección de características faciales.
+scipy: Utilizado para calcular distancias en el cálculo del ratio de aspecto del ojo.
+imutils: Herramientas útiles para procesamiento de imagen.
+
+Simplemente reemplaza tu_usuario y tu_repositorio con los nombres adecuados para tu repositorio en GitHub. Además, asegúrate de crear un archivo requirements.txt en la raíz de tu repositorio con las dependencias necesarias. Por ejemplo:
+
+```markfile
+opencv-python==4.5.3.56
+dlib==19.22.0
+scipy==1.7.1
+imutils==0.5.4
+```
 
