@@ -23,7 +23,7 @@ Recomendamos utilizar un entorno virtual para mantener las dependencias del proy
 ```bash
 python3 -m venv env
 source env/bin/activate  # En linux
-env\Scripts\activate # En Windowa
+env\Scripts\activate # En Windows
 pip install -r requirements.txt
 ```
 
