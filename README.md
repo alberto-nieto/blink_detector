@@ -13,7 +13,7 @@ Este proyecto utiliza `dlib`, `cv2` y otras bibliotecas para detectar parpadeos 
 
 ```bash
 git clone https://github.com/alberto-nieto/blink_detector.git
-cd tu_repositorio
+cd blink_detector
 ```
 
 2. **Instalar dependencias**:
