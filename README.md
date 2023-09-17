@@ -40,8 +40,11 @@ python detect_blinks.py
 ## Dependencias
 
 cv2: Para la captura y procesamiento de video en tiempo real.
+
 dlib: Para la detección de características faciales.
+
 scipy: Utilizado para calcular distancias en el cálculo del ratio de aspecto del ojo.
+
 imutils: Herramientas útiles para procesamiento de imagen.
 
 ##
