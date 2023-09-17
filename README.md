@@ -47,13 +47,4 @@ scipy: Utilizado para calcular distancias en el cálculo del ratio de aspecto de
 
 imutils: Herramientas útiles para procesamiento de imagen.
 
-##
-Simplemente reemplaza tu_usuario y tu_repositorio con los nombres adecuados para tu repositorio en GitHub. Además, asegúrate de crear un archivo requirements.txt en la raíz de tu repositorio con las dependencias necesarias. Por ejemplo:
-
-```markfile
-opencv-python==4.5.3.56
-dlib==19.22.0
-scipy==1.7.1
-imutils==0.5.4
-```
 
