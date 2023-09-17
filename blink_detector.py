@@ -85,8 +85,8 @@ while True:
         BLINKS = 0
         LAST_MINUTE_TIME = time.time()
 
-    info1 = f"Total Blinks: {TOTAL_BLINKS} - Blinks per minute: {BPM:.2f}"
-    info2 = f"BPS: {BPS:.2f} - Max Eyes Closed: {MAX_EYES_CLOSED_TIME:.2f} seconds"
+    info1 = f"Total Parpadeos: {TOTAL_BLINKS} - Parpadeos por minuto: {BPM:.2f}"
+    info2 = f"PxS: {BPS:.2f} - Maximo tiempo ojos cerrados: {MAX_EYES_CLOSED_TIME:.2f} s"
 
     cv2.putText(frame, info1, (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
     cv2.putText(frame, info2, (10, 90), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
