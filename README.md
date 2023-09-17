@@ -12,8 +12,8 @@ Este proyecto utiliza `dlib`, `cv2` y otras bibliotecas para detectar parpadeos 
 1. **Clonar el repositorio**:
 
 ```bash
-git clone https://github.com/tu_usuario/tu_repositorio.git
-cd tu_repositorio
+git clone https://github.com/alberto-nieto/blink_detector.git
+cd blink_detector
 ```
 
 2. **Instalar dependencias**:
@@ -23,7 +23,7 @@ Recomendamos utilizar un entorno virtual para mantener las dependencias del proy
 ```bash
 python3 -m venv env
 source env/bin/activate  # En linux
-env\Scripts\activate # En Windowa
+env\Scripts\activate # En Windows
 pip install -r requirements.txt
 ```
 
@@ -40,17 +40,11 @@ python detect_blinks.py
 ## Dependencias
 
 cv2: Para la captura y procesamiento de video en tiempo real.
+
 dlib: Para la detección de características faciales.
+
 scipy: Utilizado para calcular distancias en el cálculo del ratio de aspecto del ojo.
+
 imutils: Herramientas útiles para procesamiento de imagen.
 
-##
-Simplemente reemplaza tu_usuario y tu_repositorio con los nombres adecuados para tu repositorio en GitHub. Además, asegúrate de crear un archivo requirements.txt en la raíz de tu repositorio con las dependencias necesarias. Por ejemplo:
-
-```markfile
-opencv-python==4.5.3.56
-dlib==19.22.0
-scipy==1.7.1
-imutils==0.5.4
-```
 
